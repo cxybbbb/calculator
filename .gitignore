@@ -1,0 +1,40 @@
+# ---- Qt Creator / qmake ----
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+.qmake.stash
+CMakeLists.txt.user*
+
+# ---- 构建产物 ----
+build-*/
+debug/
+release/
+*.debug
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.o
+*.res
+Makefile
+Makefile.*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+cmake_install.cmake
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
