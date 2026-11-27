@@ -7,8 +7,7 @@
 #include <QMessageBox>
 #include <QPushButton>
 #include <cmath>
-//456
-//789
+//45
 MainWindow::MainWindow(OperationRegistry *registry, QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
